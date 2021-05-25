@@ -1,14 +1,20 @@
 % rebase('layout.tpl', title=title, year=year)
 
-<h2>{{ title }} </h2>
-<h3>{{ message }}</h3>
+<head>
+	<link rel = "shortcut icon" href="https://atom.io/favicon.ico"/>
+    <h2>{{ title }} </h2>
+    <h3>{{ message }}</h3>
+</head>
+<style>
+  body { background: url('/static/images/background.png'); }
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
+</style>
+<body>
+	<p style="font-size: 19px; background-color: rgba(170, 170, 255, 0.7); margin-bottom: 3px; margin-top: 40px; margin-left:10px; margin-right: 10px">
+	Graphs</h>
+</body>
+
+
 
 <address>
     <strong>Support:</strong>   <a href="mailto:sagas54@mail.ru">sagas54@mail.ru</a><br />
