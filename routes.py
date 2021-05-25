@@ -19,8 +19,8 @@ def home():
 def floyd():
     """Renders the contact page."""
     return dict(
-        title='floyds algorithm',
-        message='Your Floyd page.',
+        title='Floyds algorithm',
+        message='here you can calculate the shortest path of your graph using floyds algorithm',
         year=datetime.now().year
     )
 

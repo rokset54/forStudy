@@ -1,10 +1,9 @@
-% rebase('layout.tpl', title='Home Page', year=year)
+% rebase('layout.tpl', title='Gamiltonov cicle', year=year)
 
 
 <html>
  <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>Gamiltonov cicle</title>
  </head>
  <body>
  <p><b>0</b><br>
