@@ -1,4 +1,4 @@
-% rebase('layout.tpl', title='Gamiltonov cicle', year=year)
+% rebase('layout.tpl', title='Hamiltonov path', year=year)
 
 
 <html>
@@ -7,8 +7,10 @@
  </head>
 
  <body>
- <p><b>0</b><br>
+ <h1>Hamiltonov path</h1>
+	<p>Hamiltonian graph is a graph supporting the Hamiltonian cycle. In this case, 
+	a Hamiltonian cycle is a cycle (closed path) that passes through each vertex of this cycle exactly once; that is, 
+	a simple cycle that includes all the vertices of the graph.</p>
    <input type="text" size="2">
-  </p>
  </body>
 </html>
