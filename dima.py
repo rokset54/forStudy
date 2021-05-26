@@ -1,5 +1,10 @@
 from bottle import post, request
 
+@post('/home', method='post')
+def parseText():
+    matrixTxt = request.forms.get('matrix')
+    return matrixTxt
+
 def hamilton(G, size, pt, path=[]):
     if pt not in set(path):
         path.append(pt)
