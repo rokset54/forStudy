@@ -6,11 +6,10 @@
     <h3>{{ message }}</h3>
 </head>
 <style>
-  body { background: url('/static/images/background.png'); }
 
 </style>
 <body>
-	<p style="font-size: 19px; background-color: rgba(170, 170, 255, 0.7); margin-bottom: 3px; margin-top: 40px; margin-left:10px; margin-right: 10px">
+	<p style="font-size: 19px; margin-bottom: 3px; margin-top: 40px; margin-left:10px; margin-right: 10px">
 	Graphs</h>
 </body>
 
