@@ -34,7 +34,7 @@
         {{!base}}
         <hr />
         <footer>
-            <p>&copy; {{ year }} - Product by Dima, Gosha, Aidar</p>
+            <p style="font-size: 15px; align="left">&copy; {{ year }} - Product by Dima, Gosha, Aidar</p>
         </footer>
     </div>
 
