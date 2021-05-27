@@ -6,13 +6,14 @@ from bottle import route, view
 from datetime import datetime
 
 @route('/')
-@route('/home')
+@route('/Hamiltonov_path')
 @view('index')
-def home():
+def Hamiltonov_path():
     """Renders the home page."""
     return dict(
         year=datetime.now().year
     )
+
 
 @route('/floyd')
 @view('floyd')
