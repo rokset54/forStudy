@@ -22,7 +22,8 @@ def floyd():
     return dict(
         title='Floyds algorithm',
         message='here you can calculate the shortest path of your graph using floyds algorithm',
-        year=datetime.now().year
+        year=datetime.now().year,
+        length = 3
     )
 
 @route('/about')

@@ -1,4 +1,4 @@
-% rebase('layout.tpl', title=title, year=year)
+% rebase('layout.tpl', title=title, length=length, year=year)
 
 <head>
 	<link rel = "shortcut icon" href="https://atom.io/favicon.ico"/>
@@ -11,22 +11,34 @@
 <body>
 
 	<br>
-	</br>
+	<br>
 	<p style="font-size: 19px">
 	Select the number of vertices in the graph</p>
 
-
+	<form method="post">
 	<table border="1">
+	<input type="number" value="{{length}}" min="3" max="10" name="CHANGE" />
+	<input class="btn btn-primary" type="submit" name="BTN" value="Enter" style="
+    padding: 8px;
+    color: red;
+	background-color: white;
+    border-radius: 15px;
+	"/>
 
-	<tr><input type="number" id="tentacles" name="tentacles"
-       min="3" max="8"></tr>
-	<br>
-	</br>
+
 
 	</table>
+	</form>
+
+
+	<br>
+	<br>
+	
 
 </body>
 
 <address>
+	<br>
+	<br>
     <strong>Support:</strong>   <a href="mailto:sagas54@mail.ru">sagas54@mail.ru</a><br />
 </address>
