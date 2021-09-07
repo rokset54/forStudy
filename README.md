@@ -1,2 +1,2 @@
 # forStudy
-Репозиторий для сдачи УП. При слиянии с прошлым репозиторием проект полностью ломался.
+Task for training practice on PM02 "Implementation of integration of program modules".
