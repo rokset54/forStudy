@@ -30,7 +30,11 @@
     value in the matrix. The number of iterations is equal to the cardinality of 
     the vertex set. The algorithm returns the shortest distance from each vertex 
     to another in the given graph.
+    <br>
+	<br>
+    <img src="static/images/floydThe.png">
     </p>
+    
 
     <div class="filter">
         <h3 class="title">Select the number of vertices (Min - 3, maximum - 10)</h3>

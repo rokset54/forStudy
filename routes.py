@@ -47,3 +47,10 @@ def about():
         message='Your application description page.',
         year=datetime.now().year
     )
+
+@route('/authors')
+@view('authors')
+def authors():
+        return dict(
+        year=datetime.now().year
+    )

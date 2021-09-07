@@ -25,6 +25,7 @@
                     <li><a href="/Hamiltonov_path">Hamilton path</a></li>
                     <li><a href="/about">About</a></li>
                     <li><a href="/floyd">Floyd</a></li>
+                    <li><a href="/authors">authors</a></li>
                 </ul>
             </div>
         </div>
