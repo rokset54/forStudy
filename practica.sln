@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "practica", "practica.pyproj", "{6805422E-64D4-49ED-B220-61EB71BE281D}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "BottleWebProject_C822_3_VIY", "BottleWebProject_C822_3_VIY.pyproj", "{6805422E-64D4-49ED-B220-61EB71BE281D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
