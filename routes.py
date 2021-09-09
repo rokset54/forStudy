@@ -12,7 +12,8 @@ import floydFormHandler
 def Hamiltonov_path():
     """Renders the home page."""
     return dict(
-        year=datetime.now().year
+        year=datetime.now().year,
+        answer=""
     )
 
 

@@ -1,11 +1,12 @@
-from bottle import post, request
+from bottle import post, request, template
 
-path1 =[]
+
 
 @post('/Hamiltonov_path', method='post')
 def parseText():
     matrixTxt = request.forms.get('matrix').splitlines()
-    
+    for i in range(len(matrixTxt)):
+        matrixTxt[i] = str(str(matrixTxt[i]).replace(",",""))
     j = 1
     i = 0
     k = 0
@@ -23,7 +24,9 @@ def parseText():
         i += 1
         j += 1
     path1 = hamilton(matrix, leen, 1)
-    return list(path1)
+    ans = str(path1).strip(';')
+    
+    return template('index.tpl', title='Hamiltonov path', year="2021", answer= "Your Hamiltonian path: " + ans)
     
 
 def hamilton(G, size, pt, path=[]):

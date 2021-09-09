@@ -1,4 +1,4 @@
-% rebase('layout.tpl', title='Hamiltonov path', year=year)
+% rebase('layout.tpl', title='Hamiltonov path', year=year, answer=answer)
 
 
 <html>
@@ -19,5 +19,10 @@
 		<p><input type="submit" value="Razibat" class="btn btn-default"></p>
 		
 	</form>
+ %if answer == "There is no decision":
+ <h2 class="answer" style="color: tomato">{{answer}}</h2>
+ %else:
+ <h2 class="answer" style="color: green">{{answer}}</h2>
+	
  </body>
 </html>
