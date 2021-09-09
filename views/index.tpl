@@ -16,7 +16,7 @@
 	<br></br>
 	<form action="/Hamiltonov_path" method="post">
 		<p><textarea rows="8" cols="50" name="matrix" placeholder="Your matrix"></textarea></p>
-		<p><input type="submit" value="Razibat" class="btn btn-default"></p>
+		<p><input type="submit" value="Calculate" class="btn btn-default"></p>
 		
 	</form>
  %if answer == "There is no decision":

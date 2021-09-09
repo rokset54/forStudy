@@ -64,6 +64,7 @@
     <Content Include="static\images\background.png" />
     <Content Include="static\images\floydThe.png" />
     <Content Include="static\images\graphlogo.png" />
+    <Content Include="static\images\vasilev.png" />
     <Content Include="static\images\yakovlev.png" />
     <Content Include="static\scripts\bootstrap.js" />
     <Content Include="static\scripts\bootstrap.min.js" />
