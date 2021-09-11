@@ -20,6 +20,9 @@
     <Name>BottleWebProject_C822_3_VIY</Name>
     <RootNamespace>practica</RootNamespace>
     <InterpreterId>MSBuild|env3|$(MSBuildProjectFullPath)</InterpreterId>
+    <TestFramework>unittest</TestFramework>
+    <UnitTestPattern>test*.py</UnitTestPattern>
+    <UnitTestRootDirectory>.</UnitTestRootDirectory>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -37,8 +40,17 @@
     <Compile Include="floydFormHandler.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="forTest.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="routes.py" />
     <Compile Include="dima.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="test_Hamiltonov.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="test_ParseText.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

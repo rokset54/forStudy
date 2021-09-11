@@ -2,8 +2,15 @@ from bottle import post, request, template
 
 #Считывает и преобразует матрицу к нужному виду
 @post('/Hamiltonov_path', method='post')
-def parseText():
-    matrixTxt = request.forms.get('matrix').splitlines()
+def main():
+    inmatrix = request.forms.get('matrix').splitlines()
+    matrix = parseText(inmatrix)
+    path1 = hamilton(matrix, len(matrix), 1)
+    ans = str(path1).strip(';')
+    return template('index.tpl', title='Hamiltonov path', year="2021", answer= "Your Hamiltonian path: " + ans) 
+
+def parseText(inmatrix):
+    matrixTxt = inmatrix
     for i in range(len(matrixTxt)):
         matrixTxt[i] = str(str(matrixTxt[i]).replace(",",""))
     j = 1
@@ -22,10 +29,10 @@ def parseText():
         k = 0
         i += 1
         j += 1
-    path1 = hamilton(matrix, leen, 1)
-    ans = str(path1).strip(';')
+    return matrix
     
-    return template('index.tpl', title='Hamiltonov path', year="2021", answer= "Your Hamiltonian path: " + ans)
+    
+    
     
 #Вычисляет Гамильтонов путь
 def hamilton(G, size, pt, path=[]):
